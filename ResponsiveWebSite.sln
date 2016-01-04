@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResponsiveWebSite", "ResponsiveWebSite\ResponsiveWebSite.csproj", "{CAD771DF-4B5C-42C8-90E8-62B2974CCA73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResponsiveWebSite.Tests", "ResponsiveWebSite.Tests\ResponsiveWebSite.Tests.csproj", "{3899BBA7-1E9C-4340-9CB1-948643E96EB5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{439B8E3C-72D2-4E3F-8256-81245EC56DB1}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureVMPublishModule.psm1 = PublishScripts\AzureVMPublishModule.psm1
+		PublishScripts\Publish-WebApplicationVM.ps1 = PublishScripts\Publish-WebApplicationVM.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{916B2ABC-C4A7-49DC-89DB-C7D285982AFB}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\ResponsiveWebSite-WAWS-dev.json = PublishScripts\Configurations\ResponsiveWebSite-WAWS-dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CAD771DF-4B5C-42C8-90E8-62B2974CCA73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAD771DF-4B5C-42C8-90E8-62B2974CCA73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAD771DF-4B5C-42C8-90E8-62B2974CCA73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAD771DF-4B5C-42C8-90E8-62B2974CCA73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3899BBA7-1E9C-4340-9CB1-948643E96EB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3899BBA7-1E9C-4340-9CB1-948643E96EB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3899BBA7-1E9C-4340-9CB1-948643E96EB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3899BBA7-1E9C-4340-9CB1-948643E96EB5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{916B2ABC-C4A7-49DC-89DB-C7D285982AFB} = {439B8E3C-72D2-4E3F-8256-81245EC56DB1}
+	EndGlobalSection
+EndGlobal
