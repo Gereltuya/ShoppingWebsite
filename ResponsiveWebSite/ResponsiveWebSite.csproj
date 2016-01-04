@@ -93,6 +93,7 @@
     <Content Include="js\bootstrap.js" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\npm.js" />
+    <Content Include="js\stripe.js" />
     <Content Include="obj\Debug\ResponsiveWebSite.csproj.FileListAbsolute.txt" />
     <Content Include="obj\Debug\ResponsiveWebSite.dll" />
     <Content Include="obj\Debug\ResponsiveWebSite.pdb" />
@@ -183,6 +184,7 @@
     <Content Include="obj\Debug\ResponsiveWebSite.csprojResolveAssemblyReference.cache" />
     <Content Include="UpdatePanel_Demo.aspx" />
     <Content Include="ContactUs.aspx" />
+    <Content Include="creditcard.aspx" />
     <None Include="Properties\PublishProfiles\ResponsiveWebSite.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -274,6 +276,13 @@
     </Compile>
     <Compile Include="ContactUs.aspx.designer.cs">
       <DependentUpon>ContactUs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="creditcard.aspx.cs">
+      <DependentUpon>creditcard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="creditcard.aspx.designer.cs">
+      <DependentUpon>creditcard.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
